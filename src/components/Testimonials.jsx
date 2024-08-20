@@ -35,8 +35,8 @@ export default function Testimonials() {
           <div className="flex gap-2 items-center py-6">
             <img src={card.image} alt="Profile picture" className="h-6 w-6 object-contain rounded-full" />
             <div>
-              <h4 className="text-[10px] text-white font-semibold tracking-wider">{card.name}</h4>
-              <h5 className="text-[8px] tracking-wider">{card.tagLine}</h5>
+              <h3 className="text-[10px] text-white font-semibold tracking-wider">{card.name}</h3>
+              <h4 className="text-[8px] tracking-wider">{card.tagLine}</h4>
             </div>
           </div>
         </div>

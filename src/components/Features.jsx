@@ -40,7 +40,7 @@ export default function Features() {
       {featuresList.map(feature => (
         <div key={feature.id} className="flex flex-col w-[356px] items-center text-center text-white py-11 mx-7 lg:mx-20">
           <img src={feature.image} alt={feature.alt} className="h-[64px] w-[70px] lg:h-[88px] lg:w-[91px] object-contain mb-2" />
-          <h3 className="font-raleway font-semibold text-lg mt-5 mb-2 lg:my-2">{feature.title}</h3>
+          <h2 className="font-raleway font-semibold text-lg mt-5 mb-2 lg:my-2">{feature.title}</h2>
           <p className="font-open-sans text-sm text-stone-200">{feature.details}</p>
         </div>
       ))}

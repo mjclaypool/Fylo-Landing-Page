@@ -14,8 +14,8 @@ export default function SignUp() {
   }
 
   return (
-    <div className="absolute -top-44 lg:-top-32 flex justify-center">
-      <div className="flex flex-col items-center text-center lg:max-w-[864px] px-8 lg:px-16 pt-8 lg:pt-10 pb-10 lg:pb-4 bg-dark-blue-intro rounded-lg shadow-lg">
+    <div className="absolute -top-44 lg:-top-36 flex justify-center">
+      <div className="flex flex-col items-center text-center lg:max-w-[864px] px-8 lg:px-16 pt-8 lg:pt-12 pb-10 lg:pb-6 bg-dark-blue-intro rounded-lg shadow-lg">
         <h2 className="font-raleway font-bold text-lg lg:text-[32px] text-white">Get early access today</h2>
         <p className="font-open-sans text-sm text-stone-200 mt-4 mb-8 lg:px-12">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
         <div className="w-full">
