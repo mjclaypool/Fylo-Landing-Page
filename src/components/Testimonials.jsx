@@ -28,7 +28,7 @@ export default function Testimonials() {
   ]
 
   return (
-    <div className="flex flex-col items-center lg:flex-row justify-center gap-6 lg:gap-10 my-44 px-12 lg:px-24">
+    <div className="flex flex-col items-center lg:flex-row justify-center gap-6 lg:gap-10 mt-44 mb-80 px-12 lg:px-24">
       {testimonialsList.map(card => (
         <div key={card.id} className="max-w-[362px] bg-dark-blue-test font-open-sans text-stone-200 pt-6 lg:pt-10 px-6 lg:px-8">
           <p className="text-[10px] lg:text-sm">{card.quote}</p>

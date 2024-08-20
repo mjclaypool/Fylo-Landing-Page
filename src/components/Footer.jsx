@@ -1,3 +1,5 @@
+import SignUp from "./SignUp";
+
 import logo from "../../images/logo.svg";
 import locIcon from "../../images/icon-location.svg";
 import phoneIcon from "../../images/icon-phone.svg";
@@ -7,9 +9,10 @@ export default function Footer() {
   const navLinks = ["About Us", "Jobs", "Press", "Blog", "Contact Us", "Terms", "Privacy"];
 
   return (
-    <footer className="flex flex-col gap-10 lg:gap-12 justify-center bg-dark-blue-foot text-stone-300 lg:h-[440px] px-8 lg:px-28">
-      <img src={logo} alt="Fylo company logo" className="self-start h-12 lg:h-8 mx-2 lg:mx-0 mt-60 lg:mt-0 object-contain" />
-      <div className="flex flex-col lg:flex-row lg:justify-between">
+    <footer className="relative flex flex-col gap-10 lg:gap-12 items-center justify-center bg-dark-blue-foot text-stone-300 lg:h-[440px] px-8 lg:px-28">
+      <SignUp />
+      <img src={logo} alt="Fylo company logo" className="self-start h-12 lg:h-8 mx-2 lg:mx-0 mt-60 lg:mt-32 object-contain" />
+      <div className="flex flex-col lg:flex-row lg:justify-between w-full">
         <div className="flex gap-6 lg:pr-6 mb-3">
           <img src={locIcon} alt="Location Icon" className="h-[18px] object-contain mt-2" />
           <p className="max-w-[320px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
