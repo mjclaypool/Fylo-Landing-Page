@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import SignUp from "./SignUp";
 
 import logo from "../../images/logo.svg";
@@ -36,9 +40,21 @@ export default function Footer() {
           ))}
         </nav>
         <div className="flex gap-3 justify-center lg:justify-start pb-12 lg:pb-0 lg:pl-6">
-          <div className="w-7 h-7 lg:w-8 lg:h-8 rounded-full border-2 border-white"></div>
-          <div className="w-7 h-7 lg:w-8 lg:h-8 rounded-full border-2 border-white"></div>
-          <div className="w-7 h-7 lg:w-8 lg:h-8 rounded-full border-2 border-white"></div>
+          <FontAwesomeIcon
+            icon={faFacebookF}
+            alt="Font Awesome Facebook-F Icon"
+            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain border-2 border-white rounded-full"
+          />
+          <FontAwesomeIcon
+            icon={faTwitter}
+            alt="Font Awesome Twitter Icon"
+            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain border-2 border-white rounded-full"
+          />
+          <FontAwesomeIcon
+            icon={faInstagram}
+            alt="Font Awesome Instagram Icon"
+            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain border-2 border-white rounded-full"
+          />
         </div>
       </div>
     </footer>
