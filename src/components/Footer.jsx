@@ -43,17 +43,17 @@ export default function Footer() {
           <FontAwesomeIcon
             icon={faFacebookF}
             alt="Font Awesome Facebook-F Icon"
-            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain border-2 border-white rounded-full"
+            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain cursor-pointer border-2 border-white rounded-full hover:text-cyan-accent hover:border-cyan-accent"
           />
           <FontAwesomeIcon
             icon={faTwitter}
             alt="Font Awesome Twitter Icon"
-            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain border-2 border-white rounded-full"
+            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain cursor-pointer border-2 border-white rounded-full hover:text-cyan-accent hover:border-cyan-accent"
           />
           <FontAwesomeIcon
             icon={faInstagram}
             alt="Font Awesome Instagram Icon"
-            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain border-2 border-white rounded-full"
+            className="h-3 w-3 lg:h-4 lg:w-4 p-2 object-contain cursor-pointer border-2 border-white rounded-full hover:text-cyan-accent hover:border-cyan-accent"
           />
         </div>
       </div>
